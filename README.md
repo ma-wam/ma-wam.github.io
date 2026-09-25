@@ -1,6 +1,6 @@
 # MA-WAM project page
 
-https://guowei-zou.github.io/ma-wam/
+https://ma-wam.github.io/
 
 Static HTML/CSS/JavaScript published with GitHub Pages from the main branch.
 
