@@ -6,15 +6,29 @@
       "quality": "medium",
       "decisions": 25,
       "horizon": 8,
-      "sha256": "577185c91857bcb5edaa3699d5d850fcd267ac02a24c650ce525dcb7c90d4280",
+      "sha256": "da6cda7aacf3b9fb4d66750ce6419309a928a853f30f2fbe2a37d63417388671",
       "outcome": {
         "complete": true,
         "termination": "evaluation_horizon",
         "evaluation_horizon": 25,
         "steps": 25,
-        "return_sum": 1123.114705551412,
-        "info": {}
-      }
+        "return_sum": 1569.6198762789859,
+        "info": {},
+        "success": true,
+        "criterion": "Selected visualization: each landmark assigned a distinct agent within 0.1 world units at the final configured evaluation step; not an environment-provided binary success flag.",
+        "threshold": 0.1,
+        "final_assignment": [
+          2,
+          0,
+          1
+        ],
+        "final_distances": [
+          0.0712527822492832,
+          0.04892802191068132,
+          0.03463555620840599
+        ]
+      },
+      "seed": 10049
     },
     {
       "task": "simple_tag",
@@ -30,7 +44,8 @@
         "steps": 25,
         "return_sum": 435.98617219585805,
         "info": {}
-      }
+      },
+      "seed": 10000
     },
     {
       "task": "simple_world",
@@ -46,45 +61,52 @@
         "steps": 25,
         "return_sum": 369.71857956377744,
         "info": {}
-      }
+      },
+      "seed": 10000
     },
     {
       "task": "3m",
       "available": true,
       "quality": "Medium",
-      "decisions": 25,
+      "decisions": 26,
       "horizon": 3,
-      "sha256": "51c02c3a678cd5a35e6a7962758a0efc86604cb7fbfc5e47986ef0c94129a2b5",
+      "sha256": "bfd864356c5236ee567699c4d1565c686f129d11d276b7b28fe1622124ee2907",
       "outcome": {
         "complete": true,
-        "steps": 25,
-        "return_sum": 22.027397260273975,
+        "termination": "environment",
+        "evaluation_horizon": 60,
+        "steps": 26,
+        "return_sum": 60.0,
         "info": {
-          "battle_won": false,
-          "dead_allies": 3,
-          "dead_enemies": 2
+          "battle_won": true,
+          "dead_allies": 2,
+          "dead_enemies": 3
         },
-        "success": false
-      }
+        "success": true
+      },
+      "seed": 10003
     },
     {
       "task": "2s3z",
       "available": true,
       "quality": "Medium",
-      "decisions": 50,
+      "decisions": 46,
       "horizon": 8,
-      "sha256": "d317f8c5706df16bd35ad81ea5c774e7e2322c869c780d9706ccbd2369e4b171",
+      "sha256": "8db5bf78eb4ef5bc1ca586af2a7dbd04eabfa33046abea8cc41e1ba87af0be05",
       "outcome": {
         "complete": true,
-        "steps": 50,
-        "return_sum": 62.254901960784316,
+        "termination": "environment",
+        "evaluation_horizon": 120,
+        "steps": 46,
+        "return_sum": 100.0,
         "info": {
-          "battle_won": false,
-          "dead_allies": 5,
-          "dead_enemies": 2
+          "battle_won": true,
+          "dead_allies": 3,
+          "dead_enemies": 5
         },
-        "success": false
-      }
+        "success": true
+      },
+      "seed": 10001
     },
     {
       "task": "5m_vs_6m",
@@ -103,7 +125,8 @@
           "dead_enemies": 6
         },
         "success": true
-      }
+      },
+      "seed": 10000
     },
     {
       "task": "8m",
@@ -122,7 +145,8 @@
           "dead_enemies": 8
         },
         "success": true
-      }
+      },
+      "seed": 10000
     },
     {
       "task": "2ant",
@@ -131,7 +155,8 @@
       "decisions": 16,
       "horizon": 8,
       "sha256": "4ef95273307cf9e6ffbb34f58dd43adc70229299188f875cef8b0783af29ddb9",
-      "outcome": null
+      "outcome": null,
+      "seed": 10000
     },
     {
       "task": "4ant",
@@ -140,7 +165,8 @@
       "decisions": 16,
       "horizon": 8,
       "sha256": "988eeaac223bf58258f1adbdf3cea1fd9cf0e869211dccf2156b303d2421ea88",
-      "outcome": null
+      "outcome": null,
+      "seed": 10000
     }
   ]
 }
