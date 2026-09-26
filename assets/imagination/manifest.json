@@ -4,57 +4,125 @@
       "task": "simple_spread",
       "available": true,
       "quality": "medium",
-      "decisions": 32,
+      "decisions": 25,
       "horizon": 8,
-      "sha256": "be327f2d8a3718ca53d98a17cea40c388e4184963afe1e0b508b4c87a99aea94"
+      "sha256": "577185c91857bcb5edaa3699d5d850fcd267ac02a24c650ce525dcb7c90d4280",
+      "outcome": {
+        "complete": true,
+        "termination": "evaluation_horizon",
+        "evaluation_horizon": 25,
+        "steps": 25,
+        "return_sum": 1123.114705551412,
+        "info": {}
+      }
     },
     {
       "task": "simple_tag",
       "available": true,
       "quality": "medium",
-      "decisions": 32,
+      "decisions": 25,
       "horizon": 8,
-      "sha256": "ef85062a1cb89b5a20d256bc903f8c7fec0bae0146de0b1c6eb5d1d53d29dc64"
+      "sha256": "51334eb37aaf8e757d6578b0b0456f5ce74f3fa1a72b3dc4df6d6bb1c823449e",
+      "outcome": {
+        "complete": true,
+        "termination": "evaluation_horizon",
+        "evaluation_horizon": 25,
+        "steps": 25,
+        "return_sum": 435.98617219585805,
+        "info": {}
+      }
     },
     {
       "task": "simple_world",
       "available": true,
       "quality": "medium",
-      "decisions": 16,
+      "decisions": 25,
       "horizon": 8,
-      "sha256": "90ca458eefb608293952be1cd13411cb4cb9cd39c7c7ab3176ff732f8ea1aca2"
+      "sha256": "08123d70dfe78fa39ab2a3716daf3cb0a92296f406b365c616daa62fb840b7da",
+      "outcome": {
+        "complete": true,
+        "termination": "evaluation_horizon",
+        "evaluation_horizon": 25,
+        "steps": 25,
+        "return_sum": 369.71857956377744,
+        "info": {}
+      }
     },
     {
       "task": "3m",
       "available": true,
       "quality": "Medium",
-      "decisions": 16,
+      "decisions": 25,
       "horizon": 3,
-      "sha256": "16f2acfac15fb8872715cf346d5c1f25855884d463f43db6027927d320a3ba76"
+      "sha256": "51c02c3a678cd5a35e6a7962758a0efc86604cb7fbfc5e47986ef0c94129a2b5",
+      "outcome": {
+        "complete": true,
+        "steps": 25,
+        "return_sum": 22.027397260273975,
+        "info": {
+          "battle_won": false,
+          "dead_allies": 3,
+          "dead_enemies": 2
+        },
+        "success": false
+      }
     },
     {
       "task": "2s3z",
       "available": true,
       "quality": "Medium",
-      "decisions": 16,
+      "decisions": 50,
       "horizon": 8,
-      "sha256": "6fdc6bcb81d758d78d65ebee05aef46cb7d9f38d87381fb7d8ae28e6d9b3df44"
+      "sha256": "d317f8c5706df16bd35ad81ea5c774e7e2322c869c780d9706ccbd2369e4b171",
+      "outcome": {
+        "complete": true,
+        "steps": 50,
+        "return_sum": 62.254901960784316,
+        "info": {
+          "battle_won": false,
+          "dead_allies": 5,
+          "dead_enemies": 2
+        },
+        "success": false
+      }
     },
     {
       "task": "5m_vs_6m",
       "available": true,
       "quality": "Medium",
-      "decisions": 16,
+      "decisions": 28,
       "horizon": 3,
-      "sha256": "3904062f9af204aa7aa9a030428e3da9d384265a60c50b73b53575e56b313762"
+      "sha256": "882ca0e537dfe747c636a829ecd545f98fb11296d39b94924240fad82be85431",
+      "outcome": {
+        "complete": true,
+        "steps": 28,
+        "return_sum": 100.0,
+        "info": {
+          "battle_won": true,
+          "dead_allies": 4,
+          "dead_enemies": 6
+        },
+        "success": true
+      }
     },
     {
       "task": "8m",
       "available": true,
       "quality": "Medium",
-      "decisions": 16,
+      "decisions": 25,
       "horizon": 3,
-      "sha256": "10404c73bbd6fc79507e1def839d06d56dae461088526b524acbfcb194dd3469"
+      "sha256": "7c648f9ab79492853c53c51c7bbba65dac878cd55771f52be13c30adf41e75bc",
+      "outcome": {
+        "complete": true,
+        "steps": 25,
+        "return_sum": 160.0,
+        "info": {
+          "battle_won": true,
+          "dead_allies": 3,
+          "dead_enemies": 8
+        },
+        "success": true
+      }
     },
     {
       "task": "2ant",
@@ -62,7 +130,8 @@
       "quality": "Medium",
       "decisions": 16,
       "horizon": 8,
-      "sha256": "4ef95273307cf9e6ffbb34f58dd43adc70229299188f875cef8b0783af29ddb9"
+      "sha256": "4ef95273307cf9e6ffbb34f58dd43adc70229299188f875cef8b0783af29ddb9",
+      "outcome": null
     },
     {
       "task": "4ant",
@@ -70,7 +139,8 @@
       "quality": "Medium",
       "decisions": 16,
       "horizon": 8,
-      "sha256": "988eeaac223bf58258f1adbdf3cea1fd9cf0e869211dccf2156b303d2421ea88"
+      "sha256": "988eeaac223bf58258f1adbdf3cea1fd9cf0e869211dccf2156b303d2421ea88",
+      "outcome": null
     }
   ]
 }
